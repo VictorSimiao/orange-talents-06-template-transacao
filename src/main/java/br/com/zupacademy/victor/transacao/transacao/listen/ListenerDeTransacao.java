@@ -1,4 +1,4 @@
-package br.com.zupacademy.victor.transacao.transacao;
+package br.com.zupacademy.victor.transacao.transacao.listen;
 
 import javax.persistence.EntityManager;
 
@@ -7,6 +7,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
+
+import br.com.zupacademy.victor.transacao.transacao.evento.EventoDeTransacao;
 
 @Component
 public class ListenerDeTransacao {

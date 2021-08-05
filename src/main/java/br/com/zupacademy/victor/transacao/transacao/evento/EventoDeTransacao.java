@@ -1,4 +1,4 @@
-package br.com.zupacademy.victor.transacao.transacao;
+package br.com.zupacademy.victor.transacao.transacao.evento;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -9,6 +9,7 @@ import javax.validation.constraints.Positive;
 
 import br.com.zupacademy.victor.transacao.cartao.dto.CartaoResponse;
 import br.com.zupacademy.victor.transacao.estabelecimento.EstabelecimentoResponse;
+import br.com.zupacademy.victor.transacao.transacao.model.Transacao;
 
 public class EventoDeTransacao {
 

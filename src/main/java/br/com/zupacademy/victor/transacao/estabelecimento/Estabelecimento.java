@@ -33,4 +33,7 @@ public class Estabelecimento {
 		this.endereco = endereco;
 	}
 	
+	public String getNome() {
+		return nome;
+	}
 }

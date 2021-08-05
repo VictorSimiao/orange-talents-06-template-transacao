@@ -1,4 +1,4 @@
-package br.com.zupacademy.victor.transacao.transacao;
+package br.com.zupacademy.victor.transacao.transacao.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -55,4 +55,15 @@ public class Transacao {
 		this.efetivadaEm = efetivadaEm;
 	}
 
+	public BigDecimal getValor() {
+		return valor;
+	}
+
+	public LocalDate getEfetivadaEm() {
+		return efetivadaEm;
+	}
+
+	public String getNomeEstabelecimento() {
+		return estabelecimento.getNome();
+	}
 }
